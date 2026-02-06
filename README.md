@@ -1,35 +1,29 @@
-# 📄 README.md — Wine Quality Prediction App
-
-# 🍷 Wine Quality Prediction App
-
-A Machine Learning web application built using **Streamlit** and **Logistic Regression** to classify red wine as **Good Quality** or **Bad Quality** based on chemical properties.
+🚢 Titanic Survival Prediction App
+A Machine Learning web application built using **Streamlit** and **Logistic Regression** to predict whether a passenger would survive the Titanic disaster based on personal and travel details.
 
 📌 Project Overview
 
-The application predicts wine quality using physicochemical properties such as acidity, sugar, sulphates, alcohol, and pH.
+This project uses the Titanic dataset to train a classification model that predicts passenger survival using the following features:
+- Passenger Class  
+- Gender  
+- Age  
+- Number of Family Members  
+- Port of Embarkation  
 
-Wine quality is converted into binary labels:
+The trained model is deployed using Streamlit to provide an interactive web interface.
 
-- Good Wine → Quality ≥ 7  
-- Bad Wine → Quality < 7  
-
- 
- 🛠️ Technologies Used
+🛠️ Technologies Used
 - Python  
 - Pandas  
 - NumPy  
 - Scikit-learn  
 - Streamlit  
 
- 📂 Dataset
-Dataset file:
-winequality-red.csv
+📂 Dataset
+Dataset file:  
+              Titanic-Dataset.csv
+Target column:
+              Survived
 
-
-Source: UCI Machine Learning Repository
-
----
-
-## ⚙️ Installation
+⚙️ Installation
 pip install streamlit pandas numpy scikit-learn
-
